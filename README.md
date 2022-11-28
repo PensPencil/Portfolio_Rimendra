@@ -1,3 +1,3 @@
 # Portfolio
 
-[Visit Site](https://mitanshujain-portfolio.netlify.app)
+[Visit Site](https://rimendra-portfolio.netlify.app/)
