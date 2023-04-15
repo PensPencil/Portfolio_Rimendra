@@ -27,6 +27,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 0.7em;
 }
 
 /* ---------- main section ---------- */
@@ -341,8 +342,9 @@ footer .social_media_icons a:hover i{
 .toggle{
   width: 200px;
   height: 200px;
+  display: flex;
   backdrop-filter: blur(20px);
-  border-radius: 15px;
+  border-radius: 50%;
   background: rgba(20, 20, 20, 0.178);
   position: fixed;
   top: 250px;
@@ -361,18 +363,21 @@ footer .social_media_icons a:hover i{
 }
 .toggle .box a p{
   font-size: 12px;
-  margin-top: 8px
 }
-.toggle .box:nth-child(2){
+/* .toggle .box:nth-child(2){
   width: 100%;
   justify-content: space-evenly;
-}
+} */
 .toggle .box input{
+  position: relative;
   width: 40px;
   height: 40px;
+  padding: 0 1em;
+  bottom: 2.5em;
+  right: 0.30em;
   -webkit-appearance: none;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 50%;
   background: rgb(31, 31, 31);
   border: 6px solid rgba(255, 255, 255, 0.459);
 }
@@ -382,7 +387,7 @@ footer .social_media_icons a:hover i{
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 50%;
 }
 .toggle.active{
   width: 50px;
